@@ -5,6 +5,7 @@ body {
 }
 
 .section {
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +23,11 @@ body {
     background: linear-gradient(135deg, #0c065e, #4c068d)
 }
 
-.header {
+.black{
+    background-color: black;
+}
+
+.spaced-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +35,7 @@ body {
     width: 100%;
 }
 
-.header img {
+.spaced-container #logo-img {
     max-width: 8%;
 }
 
@@ -61,6 +66,10 @@ body {
 .content-below-header img {
     max-width: 45%;
     margin-bottom: 50px;
+}
+
+#second-container{
+    margin-top: 60px;
 }
 
 ul {
