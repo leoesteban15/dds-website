@@ -1,0 +1,1 @@
+Practice website using assets of one of my favorite electronic bands, based off a The Odin Project assignment
